@@ -20,7 +20,7 @@ case $ch in
    
    
 esac
-echo "another ? [y/n]"
+echo "Do you want to cotinue? [y/n]"
 read i
 if [ $i != "y" ]
 then
