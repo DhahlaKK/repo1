@@ -14,7 +14,7 @@ echo "4.Division"
 echo "Enter your choice"
 read ch
 case $ch in
-   1)sum=$((n1+n2))
+   1)sum=`expr$((n1+n2))`
    echo "sum = "$sum;;
    
    
